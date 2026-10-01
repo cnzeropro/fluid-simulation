@@ -6,15 +6,10 @@ charset = utf-8
 end_of_line = lf
 insert_final_newline = true
 trim_trailing_whitespace = true
-
-# 渲染代码沿用上游的 Tab 缩进
-[*.js]
-indent_style = tab
-indent_size = 4
-tab_width = 4
-
-[*.{html,css}]
 indent_style = space
+indent_size = 2
+
+[*.{js,html}]
 indent_size = 2
 
 [*.md]
